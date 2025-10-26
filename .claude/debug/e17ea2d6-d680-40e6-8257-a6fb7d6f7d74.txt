@@ -1,0 +1,131 @@
+[DEBUG] Watching for changes in setting files /home/gamez/.claude/settings.json, /home/gamez/.claude/settings.json...
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: true, type: boolean
+[DEBUG] ENABLE_SKILLS check passed, loading skills...
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/gamez/.claude/skills, project=/home/gamez/.claude/skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/gamez/.bashrc
+[DEBUG] Snapshots directory: /home/gamez/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/gamez/.claude/shell-snapshots/snapshot-bash-1761059008060-rfnhqr.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/gamez/.claude/todos/e17ea2d6-d680-40e6-8257-a6fb7d6f7d74-agent-e17ea2d6-d680-40e6-8257-a6fb7d6f7d74.json.tmp.1096137.1761059008075
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/gamez/.claude/todos/e17ea2d6-d680-40e6-8257-a6fb7d6f7d74-agent-e17ea2d6-d680-40e6-8257-a6fb7d6f7d74.json.tmp.1096137.1761059008075 to /home/gamez/.claude/todos/e17ea2d6-d680-40e6-8257-a6fb7d6f7d74-agent-e17ea2d6-d680-40e6-8257-a6fb7d6f7d74.json
+[DEBUG] File /home/gamez/.claude/todos/e17ea2d6-d680-40e6-8257-a6fb7d6f7d74-agent-e17ea2d6-d680-40e6-8257-a6fb7d6f7d74.json written atomically
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Shell snapshot created successfully (1892 bytes)
+[DEBUG] Summarizing all 2 messages (~0 tokens)
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1096137.1761059008514
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34017 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1096137.1761059008514 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1096137.1761059008533
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34017 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1096137.1761059008533 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] rg error (signal=undefined, code=ERR_CHILD_PROCESS_STDIO_MAXBUFFER, stderr: rg: /home/gamez/myprojects/n8n-projects/DockerData/postgres-container: Permission denied (os error 13)
+), 152608 results
+[ERROR] RangeError: RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:484:14)
+    at Socket.emit (node:events:508:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Summarizing all 2 messages (~40405 tokens)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1096137.1761059012817
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34017 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1096137.1761059012817 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1096137.1761059012920
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33912 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1096137.1761059012920 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1096137.1761059012930
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33912 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1096137.1761059012930 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1096137.1761059012939
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33912 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1096137.1761059012939 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] performStartupChecks called
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1096137.1761059013506
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34017 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1096137.1761059013506 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool: /sc:research, /sc:load, /sc:implement, /sc:git, /sc:select-tool, /sc:spawn, /sc:explain, /sc:build, /sc:design, /sc:spec-panel, /sc:improve, /sc:workflow, /sc:reflect, /sc:cleanup, /sc:help, /sc:document, /sc:brainstorm, /sc:index, /sc:task, /sc:analyze, /sc:save, /sc:test, /sc:troubleshoot, /sc:estimate, /sc:load, /sc:design, /sc:improve, /sc:reflect, /sc:help, /sc:brainstorm, /sc:index, /sc:analyze, /sc:test, /sc:estimate, /sc:save, /sc:troubleshoot, /sc:research, /sc:implement, /sc:git, /sc:select-tool, /sc:spawn, /sc:explain, /sc:build, /sc:spec-panel, /sc:workflow, /sc:cleanup, /sc:document, /sc:task
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] UserCommandMessage rendering: "doctor" (args: "none")
+[DEBUG] isSkillFormat: false, prefix: "/"
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1096137.1761059033027
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34042 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1096137.1761059033027 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Using raw settings from /home/gamez/.claude/settings.json due to validation failure
+[DEBUG] Writing to temp file: /home/gamez/.claude/settings.json.tmp.1096137.1761059037594
+[DEBUG] Preserving file permissions: 100664
+[DEBUG] Temp file written successfully, size: 467 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude/settings.json.tmp.1096137.1761059037594 to /home/gamez/.claude/settings.json
+[DEBUG] File /home/gamez/.claude/settings.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1096137.1761059090689
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34067 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1096137.1761059090689 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] UserCommandMessage rendering: "status" (args: "none")
+[DEBUG] isSkillFormat: false, prefix: "/"
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1096137.1761059090782
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34091 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1096137.1761059090782 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)

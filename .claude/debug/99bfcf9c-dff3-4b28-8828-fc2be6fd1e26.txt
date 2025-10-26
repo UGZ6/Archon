@@ -1,0 +1,220 @@
+[DEBUG] Watching for changes in setting files /home/gamez/.claude/settings.json, /home/gamez/.claude/settings.json...
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: true, type: boolean
+[DEBUG] ENABLE_SKILLS check passed, loading skills...
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/gamez/.claude/skills, project=/home/gamez/.claude/skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/gamez/.bashrc
+[DEBUG] Snapshots directory: /home/gamez/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/gamez/.claude/shell-snapshots/snapshot-bash-1761058669940-zlqvwb.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/gamez/.claude/todos/99bfcf9c-dff3-4b28-8828-fc2be6fd1e26-agent-99bfcf9c-dff3-4b28-8828-fc2be6fd1e26.json.tmp.1091295.1761058669958
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/gamez/.claude/todos/99bfcf9c-dff3-4b28-8828-fc2be6fd1e26-agent-99bfcf9c-dff3-4b28-8828-fc2be6fd1e26.json.tmp.1091295.1761058669958 to /home/gamez/.claude/todos/99bfcf9c-dff3-4b28-8828-fc2be6fd1e26-agent-99bfcf9c-dff3-4b28-8828-fc2be6fd1e26.json
+[DEBUG] File /home/gamez/.claude/todos/99bfcf9c-dff3-4b28-8828-fc2be6fd1e26-agent-99bfcf9c-dff3-4b28-8828-fc2be6fd1e26.json written atomically
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Shell snapshot created successfully (1892 bytes)
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058670664
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 32893 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058670664 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058670708
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 32893 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058670708 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058670897
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 32893 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058670897 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058671034
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33044 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058671034 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[ERROR] Error streaming, falling back to non-streaming mode: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CULYHJcEbRGRNH6yfHu38"}
+[DEBUG] rg error (signal=undefined, code=ERR_CHILD_PROCESS_STDIO_MAXBUFFER, stderr: rg: /home/gamez/myprojects/n8n-projects/DockerData/postgres-container: Permission denied (os error 13)
+), 153165 results
+[ERROR] RangeError: RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
+    at Socket.onChildStdout (node:child_process:484:14)
+    at Socket.emit (node:events:508:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[ERROR] Error in non-streaming fallback: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CULYHMWNFDzhi2NLj9MpD"}
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CULYHMWNFDzhi2NLj9MpD"}
+    at N4.generate (file:///home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/cli.js:203:83077)
+    at by.makeStatusError (file:///home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/cli.js:357:2117)
+    at by.makeRequest (file:///home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/cli.js:357:5330)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async KfQ._t1.model (file:///home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/cli.js:3356:18739)
+    at async _t1 (file:///home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/cli.js:2692:39781)
+    at async KfQ (file:///home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/cli.js:3356:18907)
+    at async file:///home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/cli.js:3356:13073
+    at async Xo0 (file:///home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/cli.js:3356:4513)
+    at async R41 (file:///home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/cli.js:3356:13043)
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058678039
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33074 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058678039 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058678052
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33074 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058678052 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] BigQuery metrics exporter flush complete
+[DEBUG] Telemetry flushed successfully
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058698022
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 32943 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058698022 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058698032
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 32600 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058698032 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058698720
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 32862 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058698720 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058699283
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 32985 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058699283 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058699806
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33146 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058699806 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058815918
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33217 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058815918 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058822298
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33248 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058822298 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058822306
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33268 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058822306 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058822426
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33268 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058822426 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058822437
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33304 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058822437 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058822448
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33741 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058822448 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] performStartupChecks called
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool: /sc:research, /sc:implement, /sc:git, /sc:select-tool, /sc:spawn, /sc:explain, /sc:build, /sc:spec-panel, /sc:workflow, /sc:cleanup, /sc:document, /sc:task, /sc:index, /sc:analyze, /sc:test, /sc:estimate, /sc:save, /sc:troubleshoot, /sc:reflect, /sc:help, /sc:brainstorm, /sc:improve, /sc:design, /sc:load, /sc:load, /sc:design, /sc:improve, /sc:reflect, /sc:help, /sc:brainstorm, /sc:index, /sc:analyze, /sc:test, /sc:estimate, /sc:save, /sc:troubleshoot, /sc:research, /sc:implement, /sc:git, /sc:select-tool, /sc:spawn, /sc:explain, /sc:build, /sc:spec-panel, /sc:workflow, /sc:cleanup, /sc:document, /sc:task
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058823051
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33846 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058823051 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Added snapshot for d60ce92f-7c11-4be9-8e71-ff9dfdaf3fa1, tracking 0 files
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058823163
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33930 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058823163 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool: /sc:research, /sc:implement, /sc:git, /sc:select-tool, /sc:spawn, /sc:explain, /sc:build, /sc:spec-panel, /sc:workflow, /sc:cleanup, /sc:document, /sc:task, /sc:index, /sc:analyze, /sc:test, /sc:estimate, /sc:save, /sc:troubleshoot, /sc:reflect, /sc:help, /sc:brainstorm, /sc:improve, /sc:design, /sc:load, /sc:load, /sc:design, /sc:improve, /sc:reflect, /sc:help, /sc:brainstorm, /sc:index, /sc:analyze, /sc:test, /sc:estimate, /sc:save, /sc:troubleshoot, /sc:research, /sc:implement, /sc:git, /sc:select-tool, /sc:spawn, /sc:explain, /sc:build, /sc:spec-panel, /sc:workflow, /sc:cleanup, /sc:document, /sc:task
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058823348
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33930 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058823348 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058827889
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 33979 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058827889 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.1091295.1761058827957
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34017 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.1091295.1761058827957 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Metrics opt-out API response: enabled=true
+[DEBUG] BigQuery metrics exported successfully
+[DEBUG] API Response: {
+  "accepted_count": 8,
+  "rejected_count": 0
+}
+[DEBUG] Detected change to /home/gamez/.claude/settings.json

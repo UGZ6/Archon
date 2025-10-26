@@ -1,0 +1,89 @@
+[DEBUG] Watching for changes in setting files /home/gamez/.claude/settings.json...
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'userSettings': ["AllowAll"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: true, type: boolean
+[DEBUG] ENABLE_SKILLS check passed, loading skills...
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/gamez/.claude/skills, project=/home/gamez/DevWorkspace/01Projects/ai-arena/.claude/skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/gamez/.bashrc
+[DEBUG] Snapshots directory: /home/gamez/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/gamez/.claude/shell-snapshots/snapshot-bash-1761235256617-ktmgon.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/gamez/.claude/todos/7d0a375c-c73a-4271-8fe8-b1655388951b-agent-7d0a375c-c73a-4271-8fe8-b1655388951b.json.tmp.803853.1761235256631
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/gamez/.claude/todos/7d0a375c-c73a-4271-8fe8-b1655388951b-agent-7d0a375c-c73a-4271-8fe8-b1655388951b.json.tmp.803853.1761235256631 to /home/gamez/.claude/todos/7d0a375c-c73a-4271-8fe8-b1655388951b-agent-7d0a375c-c73a-4271-8fe8-b1655388951b.json
+[DEBUG] File /home/gamez/.claude/todos/7d0a375c-c73a-4271-8fe8-b1655388951b-agent-7d0a375c-c73a-4271-8fe8-b1655388951b.json written atomically
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/linuxbrew/.linuxbrew/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Shell snapshot created successfully (1892 bytes)
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.803853.1761235257192
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34257 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.803853.1761235257192 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.803853.1761235257203
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34257 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.803853.1761235257203 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.803853.1761235257440
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34257 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.803853.1761235257440 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.803853.1761235257871
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34726 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.803853.1761235257871 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.803853.1761235257934
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34726 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.803853.1761235257934 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.803853.1761235258029
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34621 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.803853.1761235258029 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.803853.1761235258038
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34621 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.803853.1761235258038 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] performStartupChecks called
+[DEBUG] Starting background plugin installations
+[DEBUG] performBackgroundPluginInstallations called
+[DEBUG] Writing to temp file: /home/gamez/.claude.json.tmp.803853.1761235258624
+[DEBUG] Preserving file permissions: 100600
+[DEBUG] Temp file written successfully, size: 34726 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/gamez/.claude.json.tmp.803853.1761235258624 to /home/gamez/.claude.json
+[DEBUG] File /home/gamez/.claude.json written atomically
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool: /sc:load, /sc:design, /sc:improve, /sc:reflect, /sc:help, /sc:brainstorm, /sc:index, /sc:analyze, /sc:test, /sc:estimate, /sc:save, /sc:troubleshoot, /sc:research, /sc:implement, /sc:git, /sc:select-tool, /sc:spawn, /sc:explain, /sc:build, /sc:spec-panel, /sc:workflow, /sc:cleanup, /sc:document, /sc:task, /sc:implement, /sc:git, /sc:select-tool, /sc:spawn, /sc:explain, /sc:build, /sc:spec-panel, /sc:workflow, /sc:cleanup, /sc:document, /sc:task, /sc:analyze, /sc:test, /sc:estimate, /sc:save, /sc:troubleshoot, /sc:research, /sc:help, /sc:brainstorm, /sc:index, /sc:improve, /sc:reflect, /sc:design, /sc:load
+[DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] AutoUpdater: Detected installation type: npm-global
+[DEBUG] AutoUpdater: Using global update method
+[DEBUG] Stream started - received first chunk

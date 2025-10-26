@@ -1,0 +1,157 @@
+2025-10-21 21:37:39 | DEBUG    | superclaude | SuperClaude called with operation: install
+2025-10-21 21:37:39 | DEBUG    | superclaude | Arguments: {'verbose': False, 'quiet': False, 'install_dir': PosixPath('/home/gamez/.claude'), 'dry_run': False, 'force': False, 'yes': False, 'no_update_check': False, 'auto_update': False, 'authors': False, 'operation': 'install', 'components': None, 'no_backup': False, 'list_components': False, 'diagnose': False}
+2025-10-21 21:37:39 | INFO     | superclaude | Executing operation: install
+2025-10-21 21:37:39 | INFO     | superclaude | Starting install operation
+2025-10-21 21:37:39 | INFO     | superclaude.security | [ALLOW] Claude directory installation validated: /home/gamez/.claude (PID: 1072941)
+2025-10-21 21:37:39 | INFO     | superclaude | Initializing installation system...
+2025-10-21 21:37:39 | DEBUG    | superclaude | Discovered 6 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Core
+2025-10-21 21:37:39 | DEBUG    | superclaude | Files found: ['BUSINESS_PANEL_EXAMPLES.md', 'BUSINESS_SYMBOLS.md', 'FLAGS.md', 'PRINCIPLES.md', 'RESEARCH_CONFIG.md', 'RULES.md']
+2025-10-21 21:37:39 | DEBUG    | superclaude | Discovered 16 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Agents
+2025-10-21 21:37:39 | DEBUG    | superclaude | Files found: ['backend-architect.md', 'business-panel-experts.md', 'deep-research-agent.md', 'devops-architect.md', 'frontend-architect.md', 'learning-guide.md', 'performance-engineer.md', 'python-expert.md', 'quality-engineer.md', 'refactoring-expert.md', 'requirements-analyst.md', 'root-cause-analyst.md', 'security-engineer.md', 'socratic-mentor.md', 'system-architect.md', 'technical-writer.md']
+2025-10-21 21:37:39 | DEBUG    | superclaude | Discovered 7 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Modes
+2025-10-21 21:37:39 | DEBUG    | superclaude | Files found: ['MODE_Brainstorming.md', 'MODE_Business_Panel.md', 'MODE_DeepResearch.md', 'MODE_Introspection.md', 'MODE_Orchestration.md', 'MODE_Task_Management.md', 'MODE_Token_Efficiency.md']
+2025-10-21 21:37:39 | DEBUG    | superclaude | Discovered 25 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Commands
+2025-10-21 21:37:39 | DEBUG    | superclaude | Files found: ['analyze.md', 'brainstorm.md', 'build.md', 'business-panel.md', 'cleanup.md', 'design.md', 'document.md', 'estimate.md', 'explain.md', 'git.md', 'help.md', 'implement.md', 'improve.md', 'index.md', 'load.md', 'reflect.md', 'research.md', 'save.md', 'select-tool.md', 'spawn.md', 'spec-panel.md', 'task.md', 'test.md', 'troubleshoot.md', 'workflow.md']
+2025-10-21 21:37:51 | INFO     | superclaude | Selected MCP servers: sequential-thinking, context7, magic, playwright, serena, morphllm-fast-apply, tavily, chrome-devtools
+2025-10-21 21:37:54 | INFO     | superclaude | Selected framework components: core, modes, commands, agents, mcp_docs, mcp
+2025-10-21 21:37:54 | INFO     | superclaude | Validating system requirements...
+2025-10-21 21:37:54 | INFO     | superclaude | All system requirements met
+2025-10-21 21:37:54 | WARNING  | superclaude | Installation directory already exists: /home/gamez/.claude
+2025-10-21 21:37:58 | DEBUG    | superclaude | Discovered 6 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Core
+2025-10-21 21:37:58 | DEBUG    | superclaude | Files found: ['BUSINESS_PANEL_EXAMPLES.md', 'BUSINESS_SYMBOLS.md', 'FLAGS.md', 'PRINCIPLES.md', 'RESEARCH_CONFIG.md', 'RULES.md']
+2025-10-21 21:37:58 | DEBUG    | superclaude | Discovered 7 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Modes
+2025-10-21 21:37:58 | DEBUG    | superclaude | Files found: ['MODE_Brainstorming.md', 'MODE_Business_Panel.md', 'MODE_DeepResearch.md', 'MODE_Introspection.md', 'MODE_Orchestration.md', 'MODE_Task_Management.md', 'MODE_Token_Efficiency.md']
+2025-10-21 21:37:58 | DEBUG    | superclaude | Discovered 25 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Commands
+2025-10-21 21:37:58 | DEBUG    | superclaude | Files found: ['analyze.md', 'brainstorm.md', 'build.md', 'business-panel.md', 'cleanup.md', 'design.md', 'document.md', 'estimate.md', 'explain.md', 'git.md', 'help.md', 'implement.md', 'improve.md', 'index.md', 'load.md', 'reflect.md', 'research.md', 'save.md', 'select-tool.md', 'spawn.md', 'spec-panel.md', 'task.md', 'test.md', 'troubleshoot.md', 'workflow.md']
+2025-10-21 21:37:58 | DEBUG    | superclaude | Discovered 16 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Agents
+2025-10-21 21:37:58 | DEBUG    | superclaude | Files found: ['backend-architect.md', 'business-panel-experts.md', 'deep-research-agent.md', 'devops-architect.md', 'frontend-architect.md', 'learning-guide.md', 'performance-engineer.md', 'python-expert.md', 'quality-engineer.md', 'refactoring-expert.md', 'requirements-analyst.md', 'root-cause-analyst.md', 'security-engineer.md', 'socratic-mentor.md', 'system-architect.md', 'technical-writer.md']
+2025-10-21 21:38:01 | DEBUG    | superclaude | Discovered 6 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Core
+2025-10-21 21:38:01 | DEBUG    | superclaude | Files found: ['BUSINESS_PANEL_EXAMPLES.md', 'BUSINESS_SYMBOLS.md', 'FLAGS.md', 'PRINCIPLES.md', 'RESEARCH_CONFIG.md', 'RULES.md']
+2025-10-21 21:38:01 | DEBUG    | superclaude | Discovered 16 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Agents
+2025-10-21 21:38:01 | DEBUG    | superclaude | Files found: ['backend-architect.md', 'business-panel-experts.md', 'deep-research-agent.md', 'devops-architect.md', 'frontend-architect.md', 'learning-guide.md', 'performance-engineer.md', 'python-expert.md', 'quality-engineer.md', 'refactoring-expert.md', 'requirements-analyst.md', 'root-cause-analyst.md', 'security-engineer.md', 'socratic-mentor.md', 'system-architect.md', 'technical-writer.md']
+2025-10-21 21:38:01 | DEBUG    | superclaude | Discovered 7 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Modes
+2025-10-21 21:38:01 | DEBUG    | superclaude | Files found: ['MODE_Brainstorming.md', 'MODE_Business_Panel.md', 'MODE_DeepResearch.md', 'MODE_Introspection.md', 'MODE_Orchestration.md', 'MODE_Task_Management.md', 'MODE_Token_Efficiency.md']
+2025-10-21 21:38:01 | DEBUG    | superclaude | Discovered 25 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Commands
+2025-10-21 21:38:01 | DEBUG    | superclaude | Files found: ['analyze.md', 'brainstorm.md', 'build.md', 'business-panel.md', 'cleanup.md', 'design.md', 'document.md', 'estimate.md', 'explain.md', 'git.md', 'help.md', 'implement.md', 'improve.md', 'index.md', 'load.md', 'reflect.md', 'research.md', 'save.md', 'select-tool.md', 'spawn.md', 'spec-panel.md', 'task.md', 'test.md', 'troubleshoot.md', 'workflow.md']
+2025-10-21 21:38:01 | DEBUG    | superclaude | Discovered 6 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Core
+2025-10-21 21:38:01 | DEBUG    | superclaude | Files found: ['BUSINESS_PANEL_EXAMPLES.md', 'BUSINESS_SYMBOLS.md', 'FLAGS.md', 'PRINCIPLES.md', 'RESEARCH_CONFIG.md', 'RULES.md']
+2025-10-21 21:38:01 | DEBUG    | superclaude | Discovered 7 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Modes
+2025-10-21 21:38:01 | DEBUG    | superclaude | Files found: ['MODE_Brainstorming.md', 'MODE_Business_Panel.md', 'MODE_DeepResearch.md', 'MODE_Introspection.md', 'MODE_Orchestration.md', 'MODE_Task_Management.md', 'MODE_Token_Efficiency.md']
+2025-10-21 21:38:01 | DEBUG    | superclaude | Discovered 25 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Commands
+2025-10-21 21:38:01 | DEBUG    | superclaude | Files found: ['analyze.md', 'brainstorm.md', 'build.md', 'business-panel.md', 'cleanup.md', 'design.md', 'document.md', 'estimate.md', 'explain.md', 'git.md', 'help.md', 'implement.md', 'improve.md', 'index.md', 'load.md', 'reflect.md', 'research.md', 'save.md', 'select-tool.md', 'spawn.md', 'spec-panel.md', 'task.md', 'test.md', 'troubleshoot.md', 'workflow.md']
+2025-10-21 21:38:01 | DEBUG    | superclaude | Discovered 16 .md files in /home/gamez/.local/share/pipx/venvs/superclaude/lib/python3.13/site-packages/SuperClaude/Agents
+2025-10-21 21:38:01 | DEBUG    | superclaude | Files found: ['backend-architect.md', 'business-panel-experts.md', 'deep-research-agent.md', 'devops-architect.md', 'frontend-architect.md', 'learning-guide.md', 'performance-engineer.md', 'python-expert.md', 'quality-engineer.md', 'refactoring-expert.md', 'requirements-analyst.md', 'root-cause-analyst.md', 'security-engineer.md', 'socratic-mentor.md', 'system-architect.md', 'technical-writer.md']
+2025-10-21 21:38:01 | INFO     | superclaude | Installing 6 components...
+2025-10-21 21:38:01 | INFO     | superclaude | Creating backup of existing installation...
+2025-10-21 21:38:02 | INFO     | superclaude | Installing core...
+2025-10-21 21:38:02 | INFO     | superclaude | Skipping already installed component: core
+2025-10-21 21:38:02 | INFO     | superclaude | Installing modes...
+2025-10-21 21:38:02 | INFO     | superclaude | Skipping already installed component: modes
+2025-10-21 21:38:02 | INFO     | superclaude | Installing commands...
+2025-10-21 21:38:02 | INFO     | superclaude | Skipping already installed component: commands
+2025-10-21 21:38:02 | INFO     | superclaude | Installing agents...
+2025-10-21 21:38:02 | INFO     | superclaude | Skipping already installed component: agents
+2025-10-21 21:38:02 | INFO     | superclaude | Installing mcp_docs...
+2025-10-21 21:38:02 | INFO     | superclaude.security | [ALLOW] Claude directory installation validated: /home/gamez/.claude (PID: 1072941)
+2025-10-21 21:38:02 | INFO     | superclaude | Installing MCP server documentation...
+2025-10-21 21:38:02 | INFO     | superclaude | Auto-detecting existing MCP servers for documentation...
+2025-10-21 21:38:02 | INFO     | superclaude | Detected existing MCP servers from config: ['playwright', 'sequential-thinking', 'morphllm', 'magic', 'serena', 'context7']
+2025-10-21 21:38:02 | INFO     | superclaude | Installing documentation for MCP servers: morphllm, tavily, playwright, serena, morphllm-fast-apply, context7, sequential-thinking, magic
+2025-10-21 21:38:02 | INFO     | superclaude |   - Detected from config: ['playwright', 'sequential-thinking', 'morphllm', 'magic', 'serena', 'context7']
+2025-10-21 21:38:02 | INFO     | superclaude |   - Newly selected: ['sequential-thinking', 'context7', 'magic', 'playwright', 'serena', 'morphllm-fast-apply', 'tavily', 'chrome-devtools']
+2025-10-21 21:38:02 | INFO     | superclaude |   - Previously documented: ['playwright', 'sequential-thinking', 'morphllm-fast-apply', 'magic', 'tavily', 'serena', 'context7']
+2025-10-21 21:38:02 | DEBUG    | superclaude | MCP docs will be installed for: ['morphllm', 'tavily', 'playwright', 'serena', 'morphllm-fast-apply', 'context7', 'sequential-thinking', 'magic']
+2025-10-21 21:38:02 | INFO     | superclaude.security | [ALLOW] Claude directory installation validated: /home/gamez/.claude (PID: 1072941)
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for morphllm: MCP_Morphllm.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for tavily: MCP_Tavily.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for playwright: MCP_Playwright.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for serena: MCP_Serena.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for morphllm-fast-apply: MCP_Morphllm.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for context7: MCP_Context7.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for sequential-thinking: MCP_Sequential.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for magic: MCP_Magic.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for morphllm: MCP_Morphllm.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for tavily: MCP_Tavily.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for playwright: MCP_Playwright.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for serena: MCP_Serena.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for morphllm-fast-apply: MCP_Morphllm.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for context7: MCP_Context7.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for sequential-thinking: MCP_Sequential.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Will install documentation for magic: MCP_Magic.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Copying MCP_Morphllm.md to /home/gamez/.claude/MCP_Morphllm.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Successfully copied MCP_Morphllm.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Copying MCP_Tavily.md to /home/gamez/.claude/MCP_Tavily.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Successfully copied MCP_Tavily.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Copying MCP_Playwright.md to /home/gamez/.claude/MCP_Playwright.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Successfully copied MCP_Playwright.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Copying MCP_Serena.md to /home/gamez/.claude/MCP_Serena.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Successfully copied MCP_Serena.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Copying MCP_Morphllm.md to /home/gamez/.claude/MCP_Morphllm.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Successfully copied MCP_Morphllm.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Copying MCP_Context7.md to /home/gamez/.claude/MCP_Context7.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Successfully copied MCP_Context7.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Copying MCP_Sequential.md to /home/gamez/.claude/MCP_Sequential.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Successfully copied MCP_Sequential.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Copying MCP_Magic.md to /home/gamez/.claude/MCP_Magic.md
+2025-10-21 21:38:02 | DEBUG    | superclaude | Successfully copied MCP_Magic.md
+2025-10-21 21:38:02 | INFO     | superclaude | MCP documentation installed successfully (8 files for 8 servers)
+2025-10-21 21:38:02 | INFO     | superclaude | Updated metadata with MCP docs component registration
+2025-10-21 21:38:02 | DEBUG    | superclaude | Found existing imports: {'BUSINESS_PANEL_EXAMPLES.md', 'MODE_Task_Management.md', 'FLAGS.md', 'MCP_Context7.md', 'MODE_Brainstorming.md', 'MCP_Magic.md', 'MCP_Playwright.md', 'MODE_Token_Efficiency.md', 'MODE_Introspection.md', 'BUSINESS_SYMBOLS.md', 'PRINCIPLES.md', 'MODE_Orchestration.md', 'MODE_Business_Panel.md', 'MCP_Morphllm.md', 'MCP_Sequential.md', 'RESEARCH_CONFIG.md', 'RULES.md', 'MCP_Tavily.md', 'MODE_DeepResearch.md', 'MCP_Serena.md'}
+2025-10-21 21:38:02 | INFO     | superclaude | All files already imported, no changes needed
+2025-10-21 21:38:02 | INFO     | superclaude | Updated CLAUDE.md with MCP documentation imports
+2025-10-21 21:38:02 | INFO     | superclaude | Installing mcp...
+2025-10-21 21:38:02 | DEBUG    | superclaude | Found Node.js v24.9.0
+2025-10-21 21:38:03 | DEBUG    | superclaude | Found Claude CLI 2.0.1 (Claude Code)
+2025-10-21 21:38:03 | DEBUG    | superclaude | Found npm 11.6.0
+2025-10-21 21:38:03 | DEBUG    | superclaude | Found uv uv 0.8.22
+2025-10-21 21:38:03 | INFO     | superclaude | Installing SuperClaude MCP servers...
+2025-10-21 21:38:03 | DEBUG    | superclaude | Found Node.js v24.9.0
+2025-10-21 21:38:04 | DEBUG    | superclaude | Found Claude CLI 2.0.1 (Claude Code)
+2025-10-21 21:38:05 | DEBUG    | superclaude | Found npm 11.6.0
+2025-10-21 21:38:05 | DEBUG    | superclaude | Found uv uv 0.8.22
+2025-10-21 21:38:05 | INFO     | superclaude | Auto-detecting existing MCP servers...
+2025-10-21 21:38:05 | INFO     | superclaude | Detected existing MCP servers from config: ['playwright', 'sequential-thinking', 'morphllm-fast-apply', 'magic', 'serena', 'context7']
+2025-10-21 21:38:57 | INFO     | superclaude | Total servers to manage: ['tavily', 'playwright', 'serena', 'morphllm-fast-apply', 'magic', 'sequential-thinking', 'chrome-devtools', 'context7']
+2025-10-21 21:38:57 | INFO     | superclaude |   - Existing: ['playwright', 'serena', 'morphllm-fast-apply', 'context7', 'sequential-thinking', 'magic']
+2025-10-21 21:38:57 | INFO     | superclaude |   - Newly selected: ['sequential-thinking', 'context7', 'magic', 'playwright', 'serena', 'morphllm-fast-apply', 'tavily', 'chrome-devtools']
+2025-10-21 21:38:57 | INFO     | superclaude |   - Previously installed: ['playwright', 'sequential-thinking', 'morphllm-fast-apply', 'chrome-devtools', 'magic', 'tavily', 'serena', 'context7']
+2025-10-21 21:38:57 | INFO     | superclaude | Managing MCP servers: tavily, playwright, serena, morphllm-fast-apply, magic, sequential-thinking, chrome-devtools, context7
+2025-10-21 21:39:17 | INFO     | superclaude | MCP server tavily already installed and working
+2025-10-21 21:39:34 | INFO     | superclaude | MCP server playwright already installed and working
+2025-10-21 21:39:50 | INFO     | superclaude | MCP server serena already installed and working
+2025-10-21 21:40:06 | INFO     | superclaude | MCP server morphllm-fast-apply already installed and working
+2025-10-21 21:40:22 | INFO     | superclaude | MCP server magic already installed and working
+2025-10-21 21:40:40 | INFO     | superclaude | MCP server sequential-thinking already installed and working
+2025-10-21 21:40:54 | INFO     | superclaude | MCP server chrome-devtools already installed and working
+2025-10-21 21:41:10 | INFO     | superclaude | MCP server context7 already installed and working
+2025-10-21 21:41:10 | INFO     | superclaude | Verifying MCP server installation...
+2025-10-21 21:41:26 | DEBUG    | superclaude | MCP servers list:
+2025-10-21 21:41:26 | DEBUG    | superclaude |   Checking MCP server health...
+2025-10-21 21:41:26 | DEBUG    | superclaude |   playwright: npx -y @playwright/mcp@latest - ✓ Connected
+2025-10-21 21:41:26 | DEBUG    | superclaude |   sequential-thinking: npx -y @modelcontextprotocol/server-sequential-thinking - ✓ Connected
+2025-10-21 21:41:26 | DEBUG    | superclaude |   morphllm-fast-apply: npx -y @morph-llm/morph-fast-apply - ✓ Connected
+2025-10-21 21:41:26 | DEBUG    | superclaude |   chrome-devtools: npx -y chrome-devtools-mcp@latest - ✓ Connected
+2025-10-21 21:41:26 | DEBUG    | superclaude |   magic: npx -y @21st-dev/magic - ✓ Connected
+2025-10-21 21:41:26 | DEBUG    | superclaude |   tavily: npx -y tavily-mcp@0.1.2 - ✗ Failed to connect
+2025-10-21 21:41:26 | DEBUG    | superclaude |   serena: uvx --from git+https://github.com/oraios/serena serena start-mcp-server --context ide-assistant - ✓ Connected
+2025-10-21 21:41:26 | DEBUG    | superclaude |   context7: npx -y @upstash/context7-mcp - ✓ Connected
+2025-10-21 21:41:26 | INFO     | superclaude | MCP component successfully managing (8 servers)
+2025-10-21 21:41:26 | INFO     | superclaude | Updated metadata with MCP component registration
+2025-10-21 21:41:26 | INFO     | superclaude | Running post-installation validation...
+2025-10-21 21:41:43 | INFO     | superclaude |   + mcp: Valid
+2025-10-21 21:41:43 | DEBUG    | superclaude | Will install documentation for morphllm: MCP_Morphllm.md
+2025-10-21 21:41:43 | DEBUG    | superclaude | Will install documentation for tavily: MCP_Tavily.md
+2025-10-21 21:41:43 | DEBUG    | superclaude | Will install documentation for playwright: MCP_Playwright.md
+2025-10-21 21:41:43 | DEBUG    | superclaude | Will install documentation for serena: MCP_Serena.md
+2025-10-21 21:41:43 | DEBUG    | superclaude | Will install documentation for morphllm-fast-apply: MCP_Morphllm.md
+2025-10-21 21:41:43 | DEBUG    | superclaude | Will install documentation for context7: MCP_Context7.md
+2025-10-21 21:41:43 | DEBUG    | superclaude | Will install documentation for sequential-thinking: MCP_Sequential.md
+2025-10-21 21:41:43 | DEBUG    | superclaude | Will install documentation for magic: MCP_Magic.md
+2025-10-21 21:41:43 | DEBUG    | superclaude | Checking installed version
+2025-10-21 21:41:43 | DEBUG    | superclaude | Metadata file exists, reading version
+2025-10-21 21:41:43 | DEBUG    | superclaude | Found version: 4.2.0
+2025-10-21 21:41:43 | INFO     | superclaude |   + mcp_docs: Valid
+2025-10-21 21:41:43 | INFO     | superclaude | All components validated successfully!
+2025-10-21 21:41:43 | INFO     | superclaude | Installation completed successfully in 221.9 seconds
+2025-10-21 21:41:43 | INFO     | superclaude | Installed components: commands, modes, mcp_docs, core, agents, mcp
+2025-10-21 21:41:43 | INFO     | superclaude | Backup created: /home/gamez/.claude/backups/superclaude_backup_20251021_213801.tar.gz

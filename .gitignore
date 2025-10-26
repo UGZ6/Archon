@@ -1,0 +1,42 @@
+# ==================================
+# Environment & Secret Files
+# ==================================
+# Ignore all .env files to prevent secrets from being committed.
+# The .env.example file SHOULD be committed.
+*.env
+.env.*
+
+# Add an exception for the example file so it CAN be committed.
+!.env.example
+
+# ==================================
+# Local Data & Volumes
+# ==================================
+# Ignore local data directories. These should be managed by Docker Volumes.
+n8n_data/
+postgres_data/
+qdrant_storage/
+tei-data/
+
+# ==================================
+# Backup & Temporary Files
+# ==================================
+# Ignore backup archives and temporary files.
+backup-n8n-*.tar.gz
+*.bak
+*.backup
+*.tmp
+
+# ==================================
+# IDE & System Files
+# ==================================
+# Ignore common system files and IDE-specific settings.
+.DS_Store
+.vscode/
+.idea/
+
+# ==================================
+# Custom Scripts
+# ==================================
+# Ignore scripts that may contain secrets or are specific to a local machine.
+upload-secrets.sh

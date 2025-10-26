@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": ["AllowAll"],
+    "deny": [],
+    "ask": []
+  },
+  "alwaysThinkingEnabled": true,
+  "env_file": "~/.claude/.env"
+}
+
